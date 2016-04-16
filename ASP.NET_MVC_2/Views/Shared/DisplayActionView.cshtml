@@ -1,0 +1,22 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DisplayActionView</title>
+</head>
+<body>
+    <h1>Controller Invoked: @ViewBag.Controller</h1>
+
+    <h1>Action Invoked: @ViewBag.Action</h1>
+
+    <h3>
+        @Html.ActionLink("this is generate url dynamic", "MyBlog")
+    </h3>
+    <h3>
+        @Html.ActionLink("This is a Blog controller", "Comments", "Blog")
+    </h3>
+</body>
+</html>
